@@ -1,4 +1,6 @@
-## Asp.Net Webapi + MVC + Entity Framework + Angular CLI
+## Asp.Net Wwe Api + MVC + Entity Framework + Angular CLI
+
+This is a seed project utilizing Asp.Net Web API, Entity Framework, ASP.Net MVC together with Angular CLI 
 
 ## Prerequisites
 
@@ -16,8 +18,6 @@ The project have dependencies that require ASP.Net 4.5, Node 6.9.0 or higher, NP
 
 **BEFORE YOU INSTALL:** please read the [prerequisites](#prerequisites)
 
-## Usage
-
 Reinstall nuget package in Package Manager Console
 
 ```bash
@@ -28,6 +28,8 @@ Install node modules in `webapp` folder
 ```bash
 npm install
 ```
+
+## Usage
 
 Test or develop `webapp` project
 ```bash
