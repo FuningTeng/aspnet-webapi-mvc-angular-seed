@@ -182,6 +182,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\vga.png" />
     <Content Include="content\favicon.ico" />
     <Content Include="content\index.html" />
     <Content Include="content\inline.bundle.js" />

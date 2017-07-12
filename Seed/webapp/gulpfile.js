@@ -46,6 +46,11 @@ gulp.task('font', function () {
     .pipe(gulp.dest('../content'));
 });
 
+gulp.task('asset', function () {
+  return gulp.src(['dist/assets/*'])  
+    .pipe(gulp.dest('../assets'));
+});
+
 gulp.task('default', [
   'inline',
   'main',
@@ -55,5 +60,6 @@ gulp.task('default', [
   'css',
   'icon',
   'html',
+  'asset',
   'font'
 ]);
